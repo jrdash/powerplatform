@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>cicd_POCApp</SiteMapUniqueName>
+  <SiteMap IntroducedVersion="7.0.0.0">
+    <Area Id="NewArea_4c3ef33e" ResourceId="SitemapDesigner.NewTitle" DescriptionResourceId="SitemapDesigner.NewTitle" ShowGroups="true" IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title LCID="1033" Title="Area1" />
+      </Titles>
+      <Group Id="NewGroup_694d407a" ResourceId="SitemapDesigner.NewGroup" DescriptionResourceId="SitemapDesigner.NewGroup" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Group1" />
+        </Titles>
+        <SubArea Id="NewSubarea_1a60e641" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cicd_kt_table1" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Subarea1" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubarea_a61887ab" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area Id="NewArea_97cb08aa" ResourceId="SitemapDesigner.NewArea" ShowGroups="false">
+      <Titles>
+        <Title LCID="1033" Title="Test" />
+      </Titles>
+      <Group Id="NewGroup_90ffdd8f" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Group2" />
+        </Titles>
+        <SubArea Id="NewSubArea_cd73681e" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="cicd_kt_table1" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Table1" />
+          </Titles>
+        </SubArea>
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName description="POCApp" languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>
